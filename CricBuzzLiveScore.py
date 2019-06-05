@@ -141,7 +141,7 @@ class Cricbuzz:
       
 			toaster.show_toast(score_of_match[j-1],display, duration=5)
  #First parameter is the Header containing name of the live match,Second paremeter is the notification content to be displayed
-      while toaster.notification_active(): time.sleep(0.1)
+      			while toaster.notification_active(): time.sleep(0.1)
 			
 
 			time.sleep(10)
